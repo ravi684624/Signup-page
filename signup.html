@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="background"></div>
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <div class="input-group">
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="toggle-password" onclick="togglePassword()">👁</span>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
